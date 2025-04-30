@@ -1,0 +1,33 @@
+{
+  "proyecto": {
+    "nombre_proyecto": "Mi Proyecto 3D",
+    "duracion_segundos": 60,
+    "cantidad_props": 30,
+    "cantidad_personajes": 30,
+    "cantidad_environments": 10,
+    "porcentaje_reuso": 0,
+    "dificultad": 5,
+    "costo_diario": 150
+  },
+  "preproduccion": {
+    "concept_artists": { "minimo": 1, "valor": 1 },
+    "modeladores": { "minimo": 1, "valor": 1 },
+    "riggers": { "minimo": 1, "valor": 1 }
+  },
+  "produccion": {
+    "storyboard": { "minimo": 1, "valor": 1 },
+    "animadores": { "minimo": 3, "valor": 3 }
+  },
+  "postproduccion": {
+    "fase1": {
+      "descripcion": "Ajustar, montar y renderizar 125 segundos de animación",
+      "cuota_dias": 11
+    }
+  },
+  "parametros_globales": {
+    "dias_laborales_semana": 5,
+    "horas_laborales_dia": 7.5,
+    "dias_laborales_mes": 21,
+    "contingencia": 1.15
+  }
+}
